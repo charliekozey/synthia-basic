@@ -1,0 +1,76 @@
+:root {
+    --background: #112;
+    --block: #223;
+    --text: #9dd;
+}
+
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 1rem;
+    /* text-shadow: 1px 1px magenta; */
+    color: var(--text);
+    font-family: 'Andale Mono', monospace;
+    font-size: 14pt;
+    background-color: var(--background);
+}
+
+button {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+input {
+    margin: 5px 0;
+}
+
+.patch-bank {
+    width: 48%;
+}
+
+.patch-card {
+    cursor: pointer;
+    padding: 7px;
+    margin: 5px 0;
+    background-color: var(--block);
+}
+
+#main {
+    outline: none;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+#how-play-link {
+    cursor: pointer;
+}
+
+#user-name-display {
+    padding: 0 15px 0 0;
+}
+
+#how-to-play {
+    background-color:var(--block);
+    padding: 20px;
+}
+
+#osc-flexbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+#oscillator-container {
+    background-color: var(--block);
+    padding: 30px 20px;
+    margin: 20px 0;
+}
+
+#patch-container {
+    display: flex;
+    justify-content: space-between;
+}
