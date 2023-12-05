@@ -18,6 +18,10 @@ Synthia has not yet been tested on mobile devices or localized to other keyboard
 
 ## Usage
 
+Go to https://www.charliekozey.com/synthia-basic/
+
+Or:
+
 1. Clone this repository
 2. Open `index.html` in your browser
 3. Make some noises!
